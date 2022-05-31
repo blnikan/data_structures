@@ -91,12 +91,12 @@ public:
 
     }
     
-    ListNode *Next(ListNode *_Current, int shift=1)
-    {
+    //ListNode *Next(ListNode *_Current, int shift=1)
+    //{
         /*сдвиг врерёд на значение  shift
           по умолчанию на 1
         */
-    }
+    //}
     
     void Sort()
     {
@@ -116,8 +116,8 @@ public:
         }
         Temp=Temp->next;
         Current=Temp;
-        cout<<endl<<"nd:"<<endl;
-      Print();
+        //cout<<endl<<"nd:"<<endl;
+      //Print();
       }
       cout<<endl<<"List after Sort:"<<endl;
       Print();
